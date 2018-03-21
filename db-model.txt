@@ -1,0 +1,15 @@
+USER DB:
+id
+name
+pw
+
+TRIP DB
+id
+user_id (foreign link to USER)
+campground_id (foregin link to API)
+
+TODO DB:
+id
+trip_id (foreign link to TRIP)
+text
+complete
